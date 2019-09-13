@@ -64,7 +64,7 @@ const App = () => {
               {formikProps.isSubmitting ? (
                 <ActivityIndicator />
               ) : (
-                <Button title="Submit" onPress={formikProps.handleSubmit} />
+                <Button title="Login" onPress={formikProps.handleSubmit} />
               )}
             </React.Fragment>
           )}
